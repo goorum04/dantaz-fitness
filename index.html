@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANTAZ FITNESS / WELLNESS | Entrenamiento y Bienestar en Andorra</title>
+    <meta name="description" content="Centro de fitness y bienestar en Santa Coloma, Andorra. Entrenamiento personal, musculación, electroestimulación y estética avanzada. ¡Supérate con nosotros!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#FF8A00" />
+                                <stop offset="100%" stop-color="#E51D1D" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Shield Background -->
+                        <path d="M 17,21 C 40,8 60,8 83,21 C 97,42 93,73 75,90 C 60,103 40,103 25,90 C 7,73 3,42 17,21 Z" fill="url(#logo-gradient)"/>
+                        
+                        <!-- Head / Map Pin -->
+                        <path d="M 50,26 C 44,34 46,41 50,45 C 54,41 56,34 50,26 Z" fill="#FFFFFF"/>
+                        <!-- Arms / Loop -->
+                        <path d="M 23,53 C 35,60 46,55 50,50 C 54,55 65,60 77,53 C 70,75 58,80 50,91 C 42,80 30,75 23,53 Z" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <!-- Inner leg curves -->
+                        <path d="M 50,50 C 50,65 58,75 50,91 C 42,75 50,65 50,50 Z" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="dantaz">DANTAZ</span>
+                    <span class="fitness">F I T N E S S</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#clases">Clases</a></li>
+                <li><a href="#bienestar">Bienestar</a></li>
+                <li><a href="#contacto" class="btn-cta">Únete</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-content container">
+                <h1 class="fade-in">MÁS QUE UN GIMNASIO, <br><span class="highlight">TU ESTILO DE VIDA</span></h1>
+                <p class="fade-in-delay">DANTAZ FITNESS/ WELLNESS: El centro de referencia en Andorra para la superación personal y el cuidado integral.</p>
+                <div class="hero-btns fade-in-delay">
+                    <a href="#contacto" class="btn-primary">Empezar Ahora</a>
+                    <a href="#servicios" class="btn-secondary">Nuestros Servicios</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats container">
+            <div class="stat-item">
+                <span class="number">Personal</span>
+                <span class="label">Entrenamiento Adaptado</span>
+            </div>
+            <div class="stat-item">
+                <span class="number">Elite</span>
+                <span class="label">Equipamiento Top</span>
+            </div>
+            <div class="stat-item">
+                <span class="number">Premium</span>
+                <span class="label">Área de Bienestar</span>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicios" class="services">
+            <div class="container">
+                <h2 class="section-title">SERVICIOS <span class="accent">ELITE</span></h2>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-img-placeholder" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./public/images/gym3.jpg');">
+                        </div>
+                        <div class="service-info">
+                            <h3>Entrenamiento Personal</h3>
+                            <p>Acompañamiento profesional enfocado en tus objetivos específicos y superación.</p>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-img-placeholder" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./public/images/gym1.jpg');"></div>
+                        <div class="service-info">
+                            <h3>Musculación</h3>
+                            <p>Instalaciones de vanguardia con las mejores marcas del mercado para potenciar tu físico.</p>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-img-placeholder" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./public/images/hero-highres.jpg');"></div>
+                        <div class="service-info">
+                            <h3>Electroestimulación</h3>
+                            <p>Optimiza tus resultados con tecnología EMS de última generación en sesiones exprés.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialized Classes -->
+        <section id="clases" class="classes">
+            <div class="container">
+                <div class="classes-flex">
+                    <div class="classes-text">
+                        <h2 class="section-title">CLASES <span class="accent">DIRIGIDAS</span></h2>
+                        <ul class="class-list">
+                            <li><span class="bullet"></span> TRX Suspension Training</li>
+                            <li><span class="bullet"></span> GAP & STEP</li>
+                            <li><span class="bullet"></span> GYMSTICK</li>
+                            <li><span class="bullet"></span> Cycling & Spinning</li>
+                            <li><span class="bullet"></span> Clases para Mayores</li>
+                        </ul>
+                        <p class="mt-2">Adaptamos cada sesión a tu nivel, garantizando diversión y resultados reales.</p>
+                    </div>
+                    <div class="classes-img">
+                         <div class="glass-box">
+                            <p>"Un equipo de profesionales enfocado en el acompañamiento y la superación personal."</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wellness Section -->
+        <section id="bienestar" class="wellness-section">
+            <div class="container">
+                <div class="wellness-grid">
+                    <div class="wellness-img">
+                        <!-- Placeholder para la cabina de estética real -->
+                    </div>
+                    <div class="wellness-content">
+                        <h2 class="section-title">BIENESTAR & <span class="accent">ESTÉTICA</span></h2>
+                        <p>No solo entrenamos tu cuerpo, también lo cuidamos. Descubre nuestra área dedicada al bienestar integral en Andorra.</p>
+                        <ul class="wellness-features">
+                            <li>Depilación Láser de última generación</li>
+                            <li>Tratamientos estéticos avanzados</li>
+                            <li>Zona de relajación y cuidado personal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location/Contact -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>¿LISTO PARA <span class="accent">EMPEZAR?</span></h2>
+                        <p>Visítanos en nuestro centro en Santa Coloma o contáctanos para una sesión de prueba.</p>
+                        <div class="info-details">
+                            <p><strong>Ubicación:</strong> Santa Coloma, Andorra la Vella</p>
+                            <p><strong>Horario:</strong> <br>
+                                Lun - Vie: 07:30 – 22:00 <br>
+                                Sáb - Dom: 08:00 – 20:00</p>
+                        </div>
+                        <a href="https://wa.me/yournumber" class="btn-whatsapp">Contactar por WhatsApp</a>
+                    </div>
+                    <div class="contact-form-container">
+                         <!-- Simple placeholder form -->
+                         <form class="premium-form">
+                            <input type="text" placeholder="Nombre completo" required>
+                            <input type="email" placeholder="Correo electrónico" required>
+                            <textarea placeholder="¿En qué podemos ayudarte?" rows="4"></textarea>
+                            <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                         </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 DANTAZ FITNESS/ WELLNESS. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/dantazfit">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
